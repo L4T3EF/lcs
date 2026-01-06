@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: unique-path-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
